@@ -18,7 +18,6 @@
 
 ## 🔍 Overview
 This application demonstrates how to implement IP geolocation in Delphi applications using MaxMind's GeoIP database. Key components include:
-
 - **TMMDBReader**: Core component for reading MaxMind database files
 - **IP Parsing**: Conversion from string format to usable IP address objects
 - **Database Selection**: Open and select different MaxMind database files
@@ -30,19 +29,20 @@ This application demonstrates how to implement IP geolocation in Delphi applicat
 - **VCL Components**: Uses standard Visual Component Library
 - **MaxMind GeoIP Database**: Requires a MaxMind database file (.mmdb)
 - **Country Flags**: Requires flag images in PNG or JPG format (not included)
+- **Required Libraries**: The "Required Libraries (add to your IDE libray paths)" folder contains components necessary for compilation - add these to your IDE library paths before building
 
 ## 📋 Usage Instructions
-1. Launch the application
-2. Click "Open DB" to select a MaxMind GeoIP database file
-3. Enter an IP address in the provided field
-4. Click "Lookup" to retrieve country information
-5. View country name, code, and flag (if available)
+1. Add the contents of the "Required Libraries (add to your IDE libray paths)" folder to your Delphi IDE library paths
+2. Launch the application
+3. Click "Open DB" to select a MaxMind GeoIP database file
+4. Enter an IP address in the provided field
+5. Click "Lookup" to retrieve country information
+6. View country name, code, and flag (if available)
 
 ## 💾 Database Resources
 MaxMind offers various GeoIP databases:
 - Free GeoLite2 databases available with registration
 - Commercial GeoIP2 databases for higher accuracy
-
 Visit [MaxMind's website](https://www.maxmind.com) for more information.
 
 ## 🏁 Flag Resources
